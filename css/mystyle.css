@@ -1,0 +1,354 @@
+*::-moz-selection {
+	background: #ad0f53 none repeat scroll 0 0;
+	color: #fff;
+}
+::-moz-selection {
+	background: #37c691;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #37c691;
+	color: #fff;
+	text-shadow: none;
+}
+.container {
+	position: relative;
+	z-index: 1;
+}
+a, a:active, a:focus, a:active {
+	text-decoration: none !important;
+}
+
+body{
+    margin: 0;
+    color: #efefef;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    overflow-x: hidden;
+    position: relative;
+    color: #000;
+}
+.container-fluid {
+    padding: 0 !important;
+}
+.navbar-header .navbar-brand{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #FFF;
+}
+.header-page{
+    position: relative;
+    height: 100%;
+}
+.header-page:after{
+    background: url(../img/bg-forest.jpg) no-repeat  0/cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    content: " ";
+   -webkit-box-shadow: inset -8px -8px 145px 79px rgba(0,0,0,0.52);
+    -moz-box-shadow: inset -8px -8px 145px 79px rgba(0,0,0,0.52);
+    box-shadow: inset -8px -8px 145px 79px rgba(0,0,0,0.52);
+}
+.navbar-style{
+    background-color: transparent;
+    border-bottom: transparent;
+}
+.title{
+    margin-top: 260px;
+    margin-bottom: 200px;
+}
+.title h1, .title p{
+    color: #FFF;
+}
+.mouse{
+    width: 16px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    margin: 0 auto;
+   position: relative;
+}
+.mouse-buton{
+    width: 3px;
+    height: 6px;
+    background: #FFF;
+    position: absolute;
+    left: 5px;
+    top: 4px;
+}
+.scroll-down{
+    margin-bottom: 20px;
+}
+.scroll-down p{
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+/* ARTICLE SECTION */
+.article .container{
+    margin-top: 50px;
+}
+.article .container .row:last-child{
+    margin-top: 20px;
+}
+.news{
+    height: 300px;
+    -webkit-box-shadow: inset 6px -11px 160px 1px rgba(0,0,0,0.96);
+    -moz-box-shadow: inset 6px -11px 160px 1px rgba(0,0,0,0.96);
+    box-shadow: inset 6px -11px 160px 1px rgba(0,0,0,0.96);
+    position: relative;
+}
+.news:after{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    content: " ";
+}
+.news1:after{
+    background: url(../img/news1.jpg) no-repeat  0/cover;
+
+}
+.news2:after{
+    background: url(../img/news2.jpg) no-repeat  0/cover;
+
+}
+.news3:after{
+    background: url(../img/news3.jpg) no-repeat  0/cover;
+
+}
+.news4:after{
+    background: url(../img/news4.jpg) no-repeat  0/cover;
+
+}
+.news h3{
+    color: #FFF;
+    width: 70%;
+    position: absolute;
+    bottom: 40px;
+}
+.meta{
+    display: flex;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+}
+.meta p {
+    margin-left: 5px;
+}
+.com-span{
+    padding-left: 10px;
+}
+
+/* SERVICES */
+
+.services h1{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-weight: 700;
+}
+.article h4{
+    font-weight: bold;
+}
+
+/* WORKS */
+.works-section{
+   
+}
+.works{
+    height: 170px;
+}
+.works:after{
+     top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    content: " ";
+}
+.works-row{
+    margin-top: 100px;
+}
+.works1:after{
+    background: url(../img/works1.jpg) no-repeat  0/cover;
+    background-position: center center;
+}
+.works2:after{
+    background: url(../img/works2.jpg) no-repeat  0/cover;
+    background-position: center center;
+}
+.works2{
+   background:  rgba(0, 0, 0, 0.51);
+   position: relative;
+}
+.works2 h3, .works2 p{
+    text-align: center;
+    color: #FFF;
+   letter-spacing: 1px;
+}
+.works2 p{
+    font-size: 10px;
+}
+.works-discription{
+    bottom: 15px;
+    position: absolute;
+}
+.works2:hover{
+    background:  rgba(0, 0, 0, 0.20);
+}
+.works3:after{
+    background: url(../img/works3.jpeg) no-repeat  0/cover;
+    background-position: center center;
+}
+.works4:after{
+    background: url(../img/works4.jpeg) no-repeat  0/cover;
+    background-position: center center;
+}
+
+/* TEAM */
+.team h1{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-weight: 700;
+}
+.team img{
+    width: 215px;
+    height: 215px;
+    margin: 0 auto;
+}
+.team .person{
+    width: 215px;
+    height: 215px;
+    margin: 0 auto;
+}
+.person:after{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    content: " ";
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.person1{
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.61);
+}
+.person1:hover{
+    background: transparent;
+}
+.person1:after{
+    background: url(../img/person1.jpg) no-repeat  0/cover;
+    background-position: -147px 0px;
+}
+.person2:after{
+    background: url(../img/person2.jpg) no-repeat  0/cover;
+}
+.person3:after{
+    background: url(../img/person3.jpg) no-repeat  0/cover;
+}
+.team-person{
+    text-align: center;
+}
+.team-person h3{
+    font-weight: 700;
+}
+.team-person p{
+    color: #a2a1a0;
+}
+
+/* CONTACT */
+.contact{
+    margin-top: 100px;
+    background: #e7eef2;
+}
+contact:after{
+    background: url(../img/bg-contact.png) no-repeat  0/cover;
+}
+.contact-button{
+    width: 100%;
+    border-radius: 0 !important;
+    background: #000 !important;
+}
+.contact h3{
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.message{
+    margin-bottom: 100px;
+}
+/* FOOTER */
+footer{
+    background: #000;
+}
+footer h2{
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+}
+footer ul > li > a{
+    color: #FFF;
+}
+.nav-footer{
+    margin-left: 33%;
+}
+.social-icons {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+}
+.social-icons a{
+    color: white;
+}
+.social-person{
+    position: relative;
+}
+.person-icon1{
+    color: #FFF;
+    position: absolute;
+    font-size: 25px;
+    left: 44px;
+    top: 146px;
+}
+.person-icon2{
+    color: #FFF;
+    position: absolute;
+    top: 172px;
+    left: 95px;
+    font-size: 25px;
+}
+.person-icon3{
+    color: #FFF;
+    position: absolute;
+    font-size: 25px;
+    top: 144px;
+    left: 143px;
+}
